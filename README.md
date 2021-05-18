@@ -4,8 +4,37 @@ This repository contains data from the story ["Facebook Said It Would Stop Recom
 Our methodology is described in "[How We Built a Facebook Inspector](https://themarkup.org/citizen-browser/2021/01/05/how-we-built-a-facebook-inspector)."
 
 ## Data
-The `data/` directory contains CSV files with data from the story.
+The `data/` directory contains files with data from the story.
 
+1. `health_keywords.txt` contains a list of 12 health- or illness-related keywords that were used to identify an initial list of groups that were likely to be focused on health.
+2. `negative_keywords.txt` contains a list of terms we used as a broad filter to remove groups that were not truly related to human physical or mental health.
+3.  `recommended_health_groups.csv` contains the full list of groups recommended to Citizen Browser panelists that contained one or more of the health keywords and no negative keywords in the group name.
+4. `anti-vaccine_content.csv` contains a list of groups and pages recommended to panelists that were dedicated mainly to the sharing of anti-vaccine misinformation.
+5. `anti-mask_content.csv` contains a list of groups and pages recommended to panelists that were dedicated mainly to criticizing or discouraging the wearing of masks.
+
+-----
+
+Data in the `recommended_health_groups.csv` file is arranged as follows:
+| column           | decription                                                                                |
+|:-----------------|:------------------------------------------------------------------------------------------|
+| group_name       | Name of the group at time of data collection                                              |
+| n_user_recommend | Number of Citizen Browser panelists the group was suggested to                            |
+| first_sighted    | Earliest date in the investigation time period that the group was recommended to a panelist |
+| last_sighted     | Latest date in the investigation time period that the group was recommended to a panelist |
+| group_slug       | The unique identifier from the the group URL - i.e. facebook.com/groups/<group_slug>      |
+| n_members        | The number of group members, recorded at the most recent date it was recommended       |
+
+Data in `anti-vaccine_content.csv` and `anti-mask_content.csv` is arranged as follows:
+| column           | decription                                                                                |
+|:-----------------|:------------------------------------------------------------------------------------------|
+| group_name       | Name of the group or page at time of data collection                                      |
+| type             | Indicates whether the named entity is a group or page                                     |
+| n_user_recommend | Number of Citizen Browser panelists the group/page was suggested to                            |
+| first_sighted    | Earliest date the entity was recommended to a panelist |
+| last_sighted     | Latest date the entity was recommended to a panelist |
+| url              | Direct URL to view the group or page - note that many groups are private and membership must be requested      |
+| n_members        | The number of members (only applicable to groups, not pages)       |
+-----
 ## Licensing
 Copyright 2021, The Markup News Inc.
 

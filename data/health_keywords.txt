@@ -1,0 +1,12 @@
+['health',
+ 'surgery',
+ 'illness',
+ 'injury',
+ 'recovery',
+ 'syndrome',
+ 'medic',
+ 'disease',
+ 'covid',
+ 'coronavirus',
+ 'pandemic',
+ 'vaccin']
