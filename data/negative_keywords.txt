@@ -1,16 +1,16 @@
-['dog',
- 'cat',
- 'canine',
- 'feline',
- 'avian',
- 'fish',
- 'fryer',
- 'best',
- 'relationship',
- 'update',
- 'motivation',
- 'married',
- 'meme',
- 'music',
- 'road',
- '4x4']
+dog
+cat
+canine
+feline
+avian
+fish
+fryer
+best
+relationship
+update
+motivation
+married
+meme
+music
+road
+4x4
