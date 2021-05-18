@@ -1,5 +1,5 @@
 # Citizen Browser: Facebook recommendations for anti-vaccine groups
-This repository contains data from the story ["Facebook Said It Would Stop Recommending Anti-Vaccine Groups. It Didn’t"](https://themarkup.org/) from from our series, [Citizen Browser](https://themarkup.org/citizen-browser/).
+This repository contains data from the story ["Facebook Said It Would Stop Recommending Anti-Vaccine Groups. It Didn’t"](https://themarkup.org/citizen-browser/2021/05/20/facebook-said-it-would-stop-recommending-anti-vaccine-groups-it-didn’t) from from our series, [Citizen Browser](https://themarkup.org/citizen-browser/).
 
 Our methodology is described in "[How We Built a Facebook Inspector](https://themarkup.org/citizen-browser/2021/01/05/how-we-built-a-facebook-inspector)."
 
