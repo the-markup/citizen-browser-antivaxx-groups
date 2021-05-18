@@ -18,7 +18,6 @@ Data in the `recommended_health_groups.csv` file is arranged as follows:
 | column           | decription                                                                                |
 |:-----------------|:------------------------------------------------------------------------------------------|
 | group_name       | Name of the group at time of data collection                                              |
-| n_user_recommend | Number of Citizen Browser panelists the group was suggested to                            |
 | first_sighted    | Earliest date in the investigation time period that the group was recommended to a panelist |
 | last_sighted     | Latest date in the investigation time period that the group was recommended to a panelist |
 | group_slug       | The unique identifier from the the group URL, i.e. facebook.com/groups/<group_slug>      |
@@ -29,7 +28,6 @@ Data in `anti-vaccine_content.csv` and `anti-mask_content.csv` is arranged as fo
 |:-----------------|:------------------------------------------------------------------------------------------|
 | group_name       | Name of the group or page at time of data collection                                      |
 | type             | Indicates whether the named entity is a group or page                                     |
-| n_user_recommend | Number of Citizen Browser panelists the group/page was suggested to                            |
 | first_sighted    | Earliest date the entity was recommended to a panelist |
 | last_sighted     | Latest date the entity was recommended to a panelist |
 | url              | Direct URL to view the group or page. Note that many groups are private and membership must be requested.      |
